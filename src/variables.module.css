@@ -1,0 +1,61 @@
+:root {
+	/* Success */
+	--success-bg-color: green;
+	--success-text-color: white;
+
+	/* Warning */
+	--warning-bg-color: yellow;
+	--warning-text-color: black;
+
+	/* Error */
+	--error-bg-color: red;
+	--error-text-color: white;
+
+	/* Info */
+	--info-bg-color: blue;
+	--info-text-color: white;
+
+	/* Spirit */
+	--spirit-a: #f7f7f7;
+	--spirit-b: #f1f1f1;
+	--spirit-c: #ffffff;
+	--spirit-d: #e7e7e7;
+	--spirit-bg-color: linear-gradient(var(--spirit-a), var(--spirit-b))
+			padding-box,
+		linear-gradient(to top, var(--spirit-c), var(--spirit-d)) border-box;
+	--spirit-text-color: black;
+
+	/* Love */
+	--love-bg-color: hotpink;
+	--love-border-color: pink;
+	--love-text-color: pink;
+
+	/* Simple */
+	--simple-bg-color: #ecbc1b;
+	--simple-border-color: rgb(253, 202, 32);
+	--simple-text-color: #ffeba8;
+
+	/* Ghost */
+	--ghost-text-color: black;
+
+	/* Focus */
+	--component-border-color-focus: red;
+
+	/* Disabled */
+	--disabled-bg-color: #797979;
+	--disabled-border-color: #bdbdbd;
+	--disabled-text-color: #4b4b4b;
+
+	/* Text */
+	--text-color: black;
+
+	/* Radius */
+	--radius-full: 9999px;
+	--radius-large: 14px;
+	--radius-medium: 12px;
+	--radius-small: 8px;
+	--radius-none: 0;
+
+	/* Sahdow */
+	--shadow-color: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}

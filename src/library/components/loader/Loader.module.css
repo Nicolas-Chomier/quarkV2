@@ -1,0 +1,55 @@
+.loader {
+	height: 55%;
+	aspect-ratio: 1 / 1;
+	width: auto;
+
+	border: 2px solid var(--text-color);
+	border-bottom-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	animation: rotation 1s linear infinite;
+}
+
+/* Colors */
+.loader[data-variant='success'] {
+	border: 2px solid var(--success-text-color);
+	border-bottom-color: transparent;
+}
+.loader[data-variant='warning'] {
+	border: 2px solid var(--warning-text-color);
+	border-bottom-color: transparent;
+}
+.loader[data-variant='error'] {
+	border: 2px solid var(--error-text-color);
+	border-bottom-color: transparent;
+}
+.loader[data-variant='info'] {
+	border: 2px solid var(--info-text-color);
+	border-bottom-color: transparent;
+}
+.loader[data-variant='spirit'] {
+	border: 2px solid var(--spirit-text-color);
+	border-bottom-color: transparent;
+}
+.loader[data-variant='love'] {
+	border: 2px solid var(--love-text-color);
+	border-bottom-color: transparent;
+}
+.loader[data-variant='simple'] {
+	border: 2px solid var(--simple-text-color);
+	border-bottom-color: transparent;
+}
+.loader[data-variant='ghost'] {
+	border: 2px solid var(--ghost-text-color);
+	border-bottom-color: transparent;
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
